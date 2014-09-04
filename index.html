@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nick Poulden</title>
-    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <style type="text/css">
       body { font-family: "Open Sans"; }
       h1 { font-family: Lato; font-weight: 900; text-transform: uppercase; position: relative; }
-      h1 small { font-size: 14px; float: right; padding-top: 20px; }
-      h3 { color: #999; font-size: 18px; text-transform: uppercase; font-family: Lato; font-weight: 300; }
+      h1 small { font-size: 14px; float: right; padding-top: 15px; line-height: 1.8em; }
+      h3 { color: #999; font-size: 18px; text-transform: uppercase; font-family: Lato; font-weight: 300; margin-top: 10px; }
       h3 small { font-weight: 400;; }
       h4 { padding-top: 10px; font-family: Lato; font-weight: 700; }
       h4 small { padding-top: 10px; font-family: Lato; font-weight: 300; padding-left: 10px; text-transform: uppercase; }
       span.sep { color: #ddd; padding: 0 3px; }
-      .container { margin-bottom: 100px; margin-top: 50px; max-width: 970px; }
-      /*ul ul, ol ul { list-style-type: disc; }*/
+      .container { margin-bottom: 100px; max-width: 970px; }
       ul { padding-left: 25px; }
       b { font-weight: 600; }
+      @media (min-width: 768px) { .container { margin-top: 50px; } }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Nick Poulden <small>415.320.6425 <span class="sep">|</span> <a href="mailto:nick@domine.co.uk">nick@domine.co.uk</a> <span class="sep">|</span> <a href="http://twitter.com/nick_p">@nick_p</a></small></h1>
-        <hr class="clearfix" />
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Nick Poulden
+                    <small>415.320.6425 <span class="sep">|</span>
+                    <a href="mailto:nick@domine.co.uk">nick@domine.co.uk</a> <span class="sep">|</span>
+                    <a href="http://twitter.com/nick_p"><i class="fa fa-twitter"></i></a> <span class="sep">|</span>
+                    <a href="http://github.com/nick"><i class="fa fa-git"></i></a> <span class="sep">|</span>
+                    <a href="http://www.linkedin.com/in/nickpoulden/"><i class="fa fa-linkedin-square"></i></a>
+                </small></h1>
+            </div>
+        </div>
+        <hr/>
         <div class="row">
             <div class="col-sm-3"><h3>C3 Energy</h3></div>
             <div class="col-sm-9">
                 <h4>Lead Engineer <small>June 2012 - Present</small></h4>
                 <ul>
-                    <li>I work primarily on C3's UI Framework and customer facing applications</li>
+                    <li>I work primarily on C3's UI Framework and
+                        <a href="http://c3energy.com/product-commercial">customer</a>
+                        <a href="http://c3energy.com/product-residential">facing</a>
+                        <a href="http://c3energy.com/product-residential">applications</a>
+                    </li>
                     <li>Most of my work involves Javascript, both in the Browser and via node.js</li>
                     <li>I enjoy rapid prototyping, transforming wireframes to applications posthaste</li>
                     <li>My CSS and Photoshop skills help me deliver pixel perfect designs</li>
@@ -55,13 +72,16 @@
                     <li><b>Created large showcase applications for the SDKs</b>
                         <ul>
                             <li>Designed user interface and worked with designers team to produce polished wireframes.</li>
-                            <li>Implemented the application with backend integration and cloud deployment to Heroku.</li>
+                            <li>Implemented the
+                                <a href="https://github.com/nick/thewatchlist">application</a>
+                                with backend integration and cloud deployment to Heroku.</li>
                             <li>Made use of Facebook's Graph API for user authentication and action posting.</li>
                         </ul>
                     </li>
                     <li><b>Learning Center</b>
                         <ul>
-                            <li>Responsible for the acquisition and enhancement of the documentation software (JSDuck).</li>
+                            <li>Responsible for the acquisition and enhancement of the documentation software,
+                                <a href="http://github.com/senchalabs/jsduck">JSDuck</a>.</li>
                             <li>Implemented new design, API commenting and inline examples.</li>
                             <li>Managed a team of outsourced documentation writers to produce tutorials, guides and screencasts.</li>
                         </ul>
@@ -84,13 +104,14 @@
                             <li>Bespoke e-commerce system for real time food ordering and fulfillment.</li>
                             <li>Restaurant hardware integration - sending orders to GSM Printers via IRC protocol.</li>
                             <li>Automated email marketing platform with A/B testing.</li>
-                            <li>Customer loyalty system</li>
+                            <li>Customer loyalty system.</li>
+                            <li>Built with node.js, express, MongoDB and hosted on AWS.</li>
                         </ul>
                     </li>
 
                     <li><b>Gatekeeper Property</b>
                         <ul>
-                            <li>Custom CRM system for multi-location real estate agents built from scratch.</li>
+                            <li>Custom CRM system for multi-location real estate agents built with Ruby on Rails.</li>
                             <li>Complete customer and workflow management system with KPI tracking.</li>
                             <li>Seamless integration with customer facing website.</li>
                         </ul>
@@ -99,12 +120,28 @@
                     <li><b>The Leaky Cauldron</b>
                         <ul>
                             <li>Top Harry Potter fansite with over 100,000 unique visitors per day at its peak.</li>
-                            <li>Custom CMS system with modules for image and video galleries.</li>
+                            <li>Custom CMS system with modules for image and video galleries built with Ruby on Rails.</li>
                             <li>Winner of a Webby Award in 2006.</li>
                         </ul>
                     </li>
 
                     <li>Dozens of other projects small and large.</li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-3"><h3>Other Projects</h3></div>
+            <div class="col-sm-9">
+                <h4>DIY Soylent</h4>
+                <ul>
+                    <li><a href="http://soylent.me">Soylent</a> recipe editor app built with node.js, MongoDB and express.</li>
+                    <li>Over 22,000 registered, 3,000 public recipes and a thriving, active community.</li>
+                    <li>Featured in
+                        <a href="http://www.newyorker.com/reporting/2014/05/12/140512fa_fact_widdicombe?currentPage=all">The New Yorker</a>,
+                        <a href="http://www.theverge.com/2013/9/27/4776560/the-world-of-diy-soylent-production">The Verge</a>
+                        and <a href="http://lifehacker.com/diy-soylent-should-you-make-your-own-food-substitute-1495348039">Lifehacker</a>.
+                    </li>
                 </ul>
             </div>
         </div>
